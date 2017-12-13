@@ -1,0 +1,67 @@
+html {
+  font-size: 100%;
+  line-height: 1.15;
+  }
+
+  body {
+  width: 90%;
+  max-width: 60em;
+  margin: 1em auto;
+  }
+
+/* CRAP CODE */
+
+
+/* LIST */
+#nav li a {
+  color: #000;
+}
+
+#nav ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+img {
+display: block;
+    /*
+margin-left: auto;
+    margin-right: auto
+ */
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+ text-align: center;
+}
+
+img.ebbandflowimg {
+  max-width: 50%;
+  max-height: 50%;
+  vertical-align: middle;
+
+}
+
+img.tahomaimg {
+   width: 50%;
+  height: 50%;
+  vertical-align: middle;
+
+}
+
+img.selfservingimg {
+   width: 50%;
+  height: 50%;
+  vertical-align: middle;
+
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
