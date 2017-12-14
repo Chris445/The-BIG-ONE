@@ -4,6 +4,7 @@ html {
   }
 
   body {
+  text-size:
   width: 90%;
   max-width: 60em;
   margin: 1em auto;
@@ -33,20 +34,50 @@ margin-left: auto;
 }
 
 h1 {
+text-transform: uppercase;
  text-align: center;
+ background: #669999;
+ padding: 1em;
+ overflow: hidden;
+  margin-left:-1em;
+  margin-right:-1em;
+  margin-top: -00.1em;
+  margin-bottom: 0em;
 }
+
+
+
+
+
+p {
+  text-align: center;
+}
+
 
 img.ebbandflowimg {
   max-width: 50%;
   max-height: 50%;
   vertical-align: middle;
+  margin-bottom: 1em;
+
 
 }
 
+
+figcaption {
+overflow: hidden;
+font-size: 1em;
+   display: block;
+
+}
+
+
 img.tahomaimg {
+
    width: 50%;
   height: 50%;
   vertical-align: middle;
+  margin-bottom: 2em;
 
 }
 
@@ -54,7 +85,7 @@ img.selfservingimg {
    width: 50%;
   height: 50%;
   vertical-align: middle;
-
+margin-bottom: 2em;
 }
 
 hr {
@@ -64,4 +95,5 @@ hr {
     border-top: 1px solid #ccc;
     margin: 1em 0;
     padding: 0;
+    background: #777;
 }
